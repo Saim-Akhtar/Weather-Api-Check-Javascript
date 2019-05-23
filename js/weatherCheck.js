@@ -1,7 +1,7 @@
 function checkWeather(){
     let getCity=document.getElementById("setCity")
     let req= new XMLHttpRequest()
-    let getWeather='http://api.openweathermap.org/data/2.5/weather?q='+getCity.value+'&appid=9f162c4a7576a32569f4374bd5fdff7b'
+    let getWeather='https://api.openweathermap.org/data/2.5/weather?q='+getCity.value+'&appid=9f162c4a7576a32569f4374bd5fdff7b'
     req.open('GET',getWeather,true)
     req.onload = ()=>{
         const getW=JSON.parse(req.response)
