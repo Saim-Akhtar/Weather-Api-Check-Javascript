@@ -1,0 +1,55 @@
+*{
+    font-family:'Times New Roman', Times, serif
+}
+.Mod_text-white{
+    color: rgb(236, 229, 229)
+}
+body{
+    /* background-image: linear-gradient(to right,rgb(177, 171, 171),rgb(121, 117, 117)) */
+    background-image: url('../image/imageWeather.jpg');
+    background-size: cover;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    /* animation: slideshow 16s ease-in-out infinite 0s; */
+    /* animation-timing-function: ease-in-out; */
+}
+#lower_back{
+    background-color: rgba(0, 0, 0,0.6);
+    
+}
+#setCity,#GoCheck{
+    background-color: rgba(8, 8, 8,0.1);
+    color: white;
+}
+#setCity{
+    font-size: 1.2em;
+}
+#setCity:focus{
+    background-color: white;
+    color: black !important;
+    border: none !important;
+    
+    
+}
+
+#GoCheck{
+    border: 1px solid white;
+    padding: 0.2% 1%;
+ width: 5em;
+}
+#GoCheck:focus{
+    outline: 3px ridge white ;
+    border: none;
+}
+.fa-search{
+    color: white;   
+}
+
+td{
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif
+}
+.card{
+    
+    border: 2px solid black !important;
+}
